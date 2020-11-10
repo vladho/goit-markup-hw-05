@@ -106,11 +106,15 @@ img {
 
 .hero-button-close {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   top: 8px;
   right: 8px;
 
   background: #ffffff;
-  background-image: url(/images/icon/close-icon.svg);
+  /*     background-image: url(/images/icon/close-icon.svg); */
   background-repeat: no-repeat;
   background-position: center;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -120,7 +124,13 @@ img {
   /*  transform: translate(-50%, -50%); */
 }
 
-.hero-button-close:hover {
+.hero-button-close-svg {
+  height: 11px;
+  widows: 11px;
+  fill: #212121;
+}
+.hero-button-close:hover .hero-button-close-svg {
+  fill: #2196f3;
 }
 /* nav*/
 .nav {

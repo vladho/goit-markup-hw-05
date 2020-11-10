@@ -15,8 +15,12 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
+.icon-check {
+  width: 1.2998046875em;
+}
+
 .icon-envelope {
-  width: 1.3330078125em;
+  width: 1.34375em;
 }
 
 .icon-partner1 {
